@@ -1,0 +1,48 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Node
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# 빌드 산출물 (Docker가 다시 빌드)
+dist
+build
+.cache
+
+# Editor / OS
+.vscode
+.idea
+.DS_Store
+*.swp
+
+# 환경/시크릿
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Replit 잔재 (운영에 불필요)
+.replit
+replit.nix
+.config
+
+# CI/CD (이미지에 포함 불필요)
+.github
+
+# 문서
+README.md
+*.md
+docs
+
+# 임시 (noti.kpetro는 코드에서 @assets/ import 안 하므로 attached_assets 제외 OK)
+tmp
+attached_assets
+artifacts
+*.log
